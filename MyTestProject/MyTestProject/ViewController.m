@@ -19,7 +19,7 @@
     
     Person *p = [Person new];
     p.name = @"峰峰";
-    
+    p.city = @"广州";
     [p eat];
 
 }

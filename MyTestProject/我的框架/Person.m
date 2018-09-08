@@ -12,7 +12,7 @@
 
 -(void)eat
 {
-    NSLog(@"%@ 正在吃",_name);
+    NSLog(@"%@ 正在吃...所在的城市 %@",_name,_city);
 }
 
 @end
