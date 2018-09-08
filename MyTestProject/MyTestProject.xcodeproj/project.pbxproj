@@ -13,6 +13,7 @@
 		BA25249B21441A7B00E06AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA25249A21441A7B00E06AC3 /* Assets.xcassets */; };
 		BA25249E21441A7B00E06AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA25249C21441A7B00E06AC3 /* LaunchScreen.storyboard */; };
 		BA2524A121441A7B00E06AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2524A021441A7B00E06AC3 /* main.m */; };
+		BA2524AB21441B8400E06AC3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2524AA21441B8400E06AC3 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BA25249D21441A7B00E06AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA25249F21441A7B00E06AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA2524A021441A7B00E06AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA2524A921441B8400E06AC3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BA2524AA21441B8400E06AC3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 		BA2524A821441B3300E06AC3 /* 我的框架 */ = {
 			isa = PBXGroup;
 			children = (
+				BA2524A921441B8400E06AC3 /* Person.h */,
+				BA2524AA21441B8400E06AC3 /* Person.m */,
 			);
 			path = "我的框架";
 			sourceTree = SOURCE_ROOT;
@@ -151,6 +156,7 @@
 			files = (
 				BA25249621441A7900E06AC3 /* ViewController.m in Sources */,
 				BA2524A121441A7B00E06AC3 /* main.m in Sources */,
+				BA2524AB21441B8400E06AC3 /* Person.m in Sources */,
 				BA25249321441A7900E06AC3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
